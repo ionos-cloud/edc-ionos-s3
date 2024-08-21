@@ -198,6 +198,10 @@ public class S3ConnectorApiImpl implements S3ConnectorApi {
                 return "eu-central-2";
             case "s3-eu-central-2.ionoscloud.com":
                 return "eu-central-2";
+	    case "https://s3.eu-central-3.ionoscloud.com":
+                return "eu-central-3";
+            case "s3.eu-central-3.ionoscloud.com":
+                return "eu-central-3";
             case "https://s3-eu-south-2.ionoscloud.com":
                 return "eu-south-2";
             case "s3-eu-south-2.ionoscloud.com":
